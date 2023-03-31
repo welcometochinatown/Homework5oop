@@ -5,14 +5,58 @@ public class Employee {
     private String post;
     private String email;
     private String phoneNumber;
-    private int salary;
+    private long salary;
     private int age;
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public String getPost() {
+        return post;
+    }
+
+    public void setPost(String post) {
+        this.post = post;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public long getSalary() {
+        return salary;
+    }
+
+    public void setSalary(long salary) {
+        this.salary = salary;
+    }
 
     public int getAge() {
         return age;
     }
 
-    public Employee(String fullName, String post, String email, String phoneNumber, int salary, int age) {
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Employee(String fullName, String post, String email, String phoneNumber, long salary, int age) {
         this.fullName = fullName;
         this.post = post;
         this.email = email;
