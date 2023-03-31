@@ -47,7 +47,7 @@ public class MainApp {
         for (int i = 0; i < employeesArray.length; i++) {
             System.out.println("Введите ФИО: ");
             String name = scanner.next();
-            System.out.println("Введите Должность: ");
+            System.out.println("Введите должность: ");
             String post = scanner.next();
             System.out.println("Введите email: ");
             String email = scanner.next();
